@@ -1,0 +1,81 @@
+.container {
+  font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.coach_row {
+  /* border: 1px solid red; */
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 1em;
+}
+
+.msg {
+  height: 2em;
+}
+
+.circle {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 10px;
+  color: white;
+
+}
+
+.seat-badge {
+  font-size: 10px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 15px;
+  border-radius: 10px;
+  color: white;
+
+}
+
+.rowx {
+  margin-right: 32px;
+  font-size: 0.71em;
+  background: rgb(205, 155, 15);
+  color: black;
+  font-weight: bold;
+
+}
+
+.seat {
+  color: white;
+  background-color: rgb(225, 222, 29);
+  margin: 8px;
+  color: black;
+  font-weight: bold;
+}
+
+.seat.booked {
+  background: rgb(131, 14, 30);
+}
+
+.mat-seat {
+
+  color: rgb(19, 80, 179);
+  margin: 0 8px;
+  font-size: 31px;
+}
+
+.mat-seat.booked {
+  color: red;
+}
+
+.details {
+  padding: 20px;
+  -webkit-box-shadow: -5px 24px 180px 13px rgba(77, 82, 61, 1);
+  -moz-box-shadow: -5px 24px 180px 13px rgba(77, 82, 61, 1);
+  box-shadow: -5px 24px 180px 13px rgba(77, 82, 61, 1);
+  margin-top: 50px;
+
+}
