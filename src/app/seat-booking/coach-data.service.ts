@@ -24,9 +24,9 @@ export class CoachDataService {
   // Defining Coach Data 
   private coachData: COACHDATA = {
     seatChart: [
-      { row: 1, booked: 2, max: 7, start: 1, booked_seats: [] },
-      { row: 2, booked: 1, max: 7, start: 8, booked_seats: [] },
-      { row: 3, booked: 3, max: 7, start: 15, booked_seats: [] },
+      { row: 1, booked: 0, max: 7, start: 1, booked_seats: [] },
+      { row: 2, booked: 0, max: 7, start: 8, booked_seats: [] },
+      { row: 3, booked: 0, max: 7, start: 15, booked_seats: [] },
       { row: 4, booked: 0, max: 7, start: 22, booked_seats: [] },
       { row: 5, booked: 0, max: 7, start: 29, booked_seats: [] },
       { row: 6, booked: 0, max: 7, start: 36, booked_seats: [] },
